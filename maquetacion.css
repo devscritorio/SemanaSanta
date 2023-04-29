@@ -1,0 +1,133 @@
+#contenedor{
+    background-color:#61105d;
+    height: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#titulo {
+    background-color:blue;
+    height: 100px;
+    width: 100%;
+    /*background-image: "Imágenes\titulo.jpg";
+    NO CONSIGO IMPLEMENTAR EN LA CABECERA UNA IMAGEN DE FONDO PARA EL TÍTULO*/
+}
+.portada {
+    padding:5px 0px 5px 50px;
+}
+#contenedorb{
+    width: 100%;
+}
+#barradenavegacion{
+    height:45px;
+    width:70%;
+    background-color:purple;
+    float: right;
+}
+.barradenavegacion {
+    float:left;
+    /*AQUÍ DEBERÍA IR LA INSTRUCCIÓN PARA UNIFORMAR LAS DIMENSIONES Y UBICACIÓN DE LOS BOTONES DE LA BARRA HORIZONTAL*/
+}
+.barradenavegacion a {
+    display:block;
+    color:#ffa927;
+    text-decoration:none;
+    padding:14px 16px;
+    text-align:center;
+    font-weight:bold;
+}
+.bloques {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#221d34;
+}
+.barradenavegacion a:hover {
+    background-color:#483078;
+}
+#espaciomuerto {
+    height:45px;
+    width: 30%;
+    background-color:#221d34;
+    float: left;
+}
+#barralateral{
+    background-color:green;
+    float:left;
+    width:30%;
+}
+.menulateral a {
+    display: block;
+    color:#ffa927;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight:bold;
+}
+.navegacionlateral {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#61105d;
+    position:relative;
+}
+.navegacionlateral a:hover {
+    background-color:#7d2379;
+}
+#cuerpo {
+    background-color:pink;
+    float:right;
+    width:70%;
+    text-align:jusfity;
+}
+.fotodeportada img {
+    height:400px;
+    width:550px;
+}
+#parrafoinicio {
+    text-align:justify;
+}
+article {
+    padding:0 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#pie{
+    height:40px;
+    width: 100%;
+    background-color:orange;
+    clear:both;
+    text-align: center;
+}
+.piedepagina {
+    padding: 0.1em;
+    background-color:blue;
+    color:#ffa927;
+}
+.cartel {
+    width: 200px;
+    height: 275px;
+}
+section {
+    position:relative;
+    margin:auto;
+    width: 99%;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border:0px solid yellow;
+}
+h3 {
+    text-align:center;
+}
+.imagenprocesion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
